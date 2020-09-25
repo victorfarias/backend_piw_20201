@@ -13,5 +13,6 @@ module.exports = function(uri){
         console.log('Mongoose! Erro na conexão: ' + erro);
     });
    mongoose.set('debug',true);
+   
 }
 
